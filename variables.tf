@@ -1,11 +1,11 @@
 variable "aws_region" {
   type    = string
-  default = "us-west-1" # change as needed
+  default = "us-east-1" # change as needed
 }
 
 variable "cluster_name" {
   type    = string
-  default = "private-eks-cluster"
+  default = "private-eks-cluster-banti"
 }
 
 variable "vpc_cidr" {
